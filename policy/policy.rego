@@ -10,4 +10,4 @@ deny[msg] if {
 deny[msg] if {
     input.env != "prod"
     msg = "Deployment from dev environment is not allowed"
-}
+}/

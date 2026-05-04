@@ -6,7 +6,7 @@ allof if {
     input.user.role == "admin"
 }
 
-#Manager -> read/write 
+#Manager -> read/write reports
 allow if{
     input.user.role == "manager"
     input.resource == "reports"
